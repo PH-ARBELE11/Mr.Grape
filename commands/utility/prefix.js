@@ -17,8 +17,7 @@ module.exports = {
                 { name: 'Prefix', value: `${args[0]}` }
             )
             .setTimestamp()
-            .setFooter('Grape Databases')
-            .addField('⠀', 'Sponsored by [NodeClusters](https://nodeclusters.com/billing/link.php?id=8');
+            .setFooter('ARBELE')
         message.channel.send(prefixSetEmbed)
     }
 }; 
